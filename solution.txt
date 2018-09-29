@@ -1,0 +1,30 @@
+cd ~
+mkdir house
+touch house/dorothy.html house/toto.html
+mkdir oz
+touch oz/good\ witch\ of\ the\ north.html 
+
+oz/wicked\ witch\ of\ the\ east.html oz/good\ witch\ of\ the\ south.html oz/wicked\ witch\ of\ the\ west.html
+
+
+
+DING DONG!
+
+rm oz/wicked\ witch\ of\ the\ east.html
+mv house/dorothy.html oz/
+
+FOLLOW THE YELLOW BRICK ROAD
+
+touch scarecrow.html tinman.html cowardly\ lion.html
+mkdir emerald\ city
+mv scarecrow.html emerald\ city/
+mv tinman.html emerald\ city/
+mv cowardly\ lion.html emerald\ city/
+
+KILL THE WITCH
+
+touch oz/flying\ monkeys.html
+rm oz/wicked\ witch\ of\ the\ west.html
+echo "diploma" >> scarecrow.html
+echo "heart shaped watch" >> tinman.html
+echo "medal" >> cowardly\ lion.html
